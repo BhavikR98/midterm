@@ -1,8 +1,22 @@
 #wrapper {
     width: 960px;
 }
-#logo {
-
+#banner {
+    background-image: url("/docs/images/4x4-adventure-automobile-1571783.jpg");
+    background-size: cover;
+    height: 554px;
+    position: relative;
+}
+#panelOverlay {
+    width: 480px;
+    height: 554px;
+}
+#footer {
+    line-height: 50px;
+    height: 50px;
+}
+#sideCard {
+    padding: 20px;
 }
 .center {
     margin-left: auto;
@@ -23,6 +37,9 @@
 .rightAlignText {
     text-align: right;
 }
+.centerAlignText {
+    text-align: center;
+}
 .thinBorder {
     border: 1px black solid;
 }
@@ -30,8 +47,23 @@
     margin: 0;
 }
 .paddingTop {
-
+    padding-top: 82px;
+}
+.paddingRightLeft {
+    padding-right: 0;
+    padding-left: 0;
+}
+.grBig {
+    width: 797px;
 }
 .clearFix {
-
+    clear: both;
+}
+.footer {
+    background-color: black;
+    margin: 128px;
+}
+.aboutMargin {
+    margin-left: auto;
+    margin-right: auto;
 }
