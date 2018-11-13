@@ -13,10 +13,9 @@
 }
 #footer {
     line-height: 50px;
-    height: 50px;
 }
 #sideCard {
-    padding: 20px;
+    padding: 10px;
 }
 .center {
     margin-left: auto;
@@ -46,12 +45,21 @@
 .marginClear {
     margin: 0;
 }
+.clearPadding {
+    padding: 0px;
+}
 .paddingTop {
     padding-top: 82px;
 }
 .paddingRightLeft {
     padding-right: 0;
     padding-left: 0;
+}
+.wrapperPaddingRight {
+    padding-right: 31px;
+}
+.grSmall {
+    width: 315px;
 }
 .grBig {
     width: 797px;
@@ -64,6 +72,15 @@
     margin: 128px;
 }
 .aboutMargin {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.aboutBorder {
+    border: 1px black solid;
+}
+.sidebarText {
+    text-align: center;
+}
+.centerAlign {
+
 }
